@@ -110,3 +110,29 @@ background-color: #f1f1f8;
 small {
 color: #666666;
 }
+ .galeria {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.foto {
+width: 30%;
+background-color: #f1f1f8;
+border: 2px solid #555577;
+border-radius: 10px;
+padding: 10px;
+}
+
+.foto img {
+width: 90%;
+height: 180px;
+object-fit: cover;
+margin: 5px;
+}
+
+.foto p {
+margin: 10px;
+font-weight: bold;
+}
